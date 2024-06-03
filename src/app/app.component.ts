@@ -8,8 +8,8 @@ import { LoginComponent } from './login/login.component';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './adminViews/designate-ruser/designate-ruser.component.html',
-  styleUrl: './adminViews/designate-ruser/designate-ruser.component.css'
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'my-angular-app';

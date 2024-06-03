@@ -28,33 +28,6 @@ body, html {
     padding-bottom: 20px;
 }
 
-.button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 50px;
-    padding-left: 100px;
-}
-
-.button {
-    background-color: #2fe1d2;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 30px 90px;
-    text-align: center;
-    font-size: 30px;
-    cursor: pointer;
-    display: flex;
-    justify-content: flex-start;
-    transition: opacity 0.3s;
-}
-
-
-.button:hover {
-    opacity: 0.8;
-}
-
 .bottom-button {
     background-color: white;
     color: black;
@@ -72,8 +45,32 @@ body, html {
     opacity: 0.8;
 }
 
-span{
-    color: black;
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.user-image {
+    width: 30%;
+}
+
+.user-id {
+    font-size: x-large;
+}
+
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+span {
+    font-size: x-large;
 }
 
 @media (max-width: 768px) {
@@ -122,5 +119,25 @@ span{
         padding: 10px 20px;
         margin: 10px;
         font-size: 16px;
+    }
+    
+    .image-container {
+        width: 50%;
+        height: 35%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-info-container {
+        width: 50%;
+        height: 70%;
+        justify-content: top;
+        align-items: flex-start;
+        order: 2;
+        flex: 1;
+    }
+
+    span {
+        font-size: large;
     }
 }

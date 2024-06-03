@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    background-color: #F9F6EE;
+    font-family: 'Oxygen', sans-serif; 
+}
+
+body {
+    background-color: #F9F6EE;
+    font-family: 'Oxygen', sans-serif; 
+}
+
+p {
+    font-family: 'Oxygen', sans-serif; 
+    font-size: large;
+    margin: 10px;
+}

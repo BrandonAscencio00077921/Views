@@ -24,8 +24,9 @@ body, html {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     padding-bottom: 20px;
+    flex-direction: column;
 }
 
 .button-container {
@@ -38,7 +39,7 @@ body, html {
 
 .button {
     background-color: #2fe1d2;
-    color: white;
+    color: black;
     border: none;
     border-radius: 30px;
     padding: 30px 90px;
@@ -48,6 +49,7 @@ body, html {
     display: flex;
     justify-content: flex-start;
     transition: opacity 0.3s;
+    width: 30%;
 }
 
 
@@ -72,8 +74,15 @@ body, html {
     opacity: 0.8;
 }
 
-span{
-    color: black;
+.qr-icon{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.profile-icon {
+    width: 50%;
+    margin-bottom: 90%;
+    padding-bottom: 175px;
 }
 
 @media (max-width: 768px) {
@@ -96,7 +105,7 @@ span{
 
     .right {
         width: 100%;
-        height: 15%;
+        height: 30%;
         border-radius: 0;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -105,6 +114,7 @@ span{
         padding: 10px;
         order: 2;
         flex: 1;
+        flex-direction: row;
     }
 
     .button-container {
@@ -119,8 +129,14 @@ span{
     }
 
     .bottom-button {
-        padding: 10px 20px;
-        margin: 10px;
         font-size: 16px;
+    }
+
+    .profile-icon {
+        width: 10%;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 50px;
+        padding-right: 300px;
     }
 }
