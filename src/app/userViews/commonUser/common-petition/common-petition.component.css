@@ -31,6 +31,7 @@ body, html {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex;
+    border-radius: 20px;
 }
 
 .content-box label {
@@ -45,6 +46,7 @@ body, html {
     height: 200px;
     text-align: left;
     resize: none;
+    border-radius: 10px;    
 }
 
 .content-box input {
@@ -52,6 +54,7 @@ body, html {
     padding: 10px;
     border: 1px solid #000;
     width: 93%;
+    border-radius: 20px;
 }
 
 .submit-button {

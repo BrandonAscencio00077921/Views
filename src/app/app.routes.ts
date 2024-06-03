@@ -14,6 +14,8 @@ import { CommonPetitionComponent } from './userViews/commonUser/common-petition/
 import { InChargeModeComponent } from './userViews/inChargeUser/in-charge-mode/in-charge-mode.component';
 import { InChargeUsersComponent } from './userViews/inChargeUser/in-charge-users/in-charge-users.component';
 import { InChargeInviteComponent } from './userViews/inChargeUser/in-charge-invite/in-charge-invite.component';
+import { InChargeAssignComponent } from './userViews/inChargeUser/in-charge-assign/in-charge-assign.component';
+import { InChargeRequestComponent } from './userViews/inChargeUser/in-charge-request/in-charge-request.component';
 
 export const routes: Routes = [
     {
@@ -90,6 +92,16 @@ export const routes: Routes = [
         path: 'incharge/invites',
         component: InChargeInviteComponent,
         title: 'Invites'
+    },
+    {
+        path: 'incharge/assign',
+        component: InChargeAssignComponent,
+        title: 'Assign'
+    },
+    {
+        path: 'incharge/request',
+        component: InChargeRequestComponent,
+        title: 'Requuests'
     }
     
 ];
