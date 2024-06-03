@@ -101,7 +101,7 @@ export const routes: Routes = [
     {
         path: 'incharge/request',
         component: InChargeRequestComponent,
-        title: 'Requuests'
+        title: 'Requests'
     }
     
 ];
