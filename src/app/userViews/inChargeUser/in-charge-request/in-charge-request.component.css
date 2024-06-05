@@ -86,6 +86,7 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     transition: opacity 0.3s;
+    margin-left: 35%;
 }
 
 @media (max-width: 768px) {

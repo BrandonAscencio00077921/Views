@@ -1,12 +1,16 @@
 <div class="container">
     <div class="left">
         <div class="button-container">
+            <a [routerLink]="['/guard/manual-mode']">
             <button class="button">
                 <span>Modo manual</span>
             </button>
+            </a>
+            <a [routerLink]="['/guard/scan-mode']">
             <button class="button">
                 <span>Modo automatico</span>
             </button>
+            </a>
         </div>
     </div>
     <div class="right">

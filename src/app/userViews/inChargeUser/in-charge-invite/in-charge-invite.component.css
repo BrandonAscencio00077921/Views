@@ -83,6 +83,7 @@ body, html {
     font-size: 16px;
     cursor: pointer;
     transition: opacity 0.3s;
+    margin-left: 40%;
 }
 
 .background-button:hover{

@@ -1,28 +1,40 @@
 <div class="container">
     <div class="left">
         <div class="button-container">
+            <a [routerLink]="['/incharge/assign']">
             <button class="button">
                 <span>Asignar residencia</span>
             </button>
+            </a>
+            <a [routerLink]="['/incharge/users']">
             <button class="button">
                 <span>Usuarios asignados</span>
             </button>
+            </a>
+            <a [routerLink]="['/incharge/invites']">
             <button class="button">
                 <span>Invitar a residencia</span>
             </button>
+            </a>
+            <a [routerLink]="['/incharge/request']">
             <button class="button">
                 <span>Peticiones de entrada</span>
             </button>
+            </a>
         </div>
         <div class="qr-container">
+            <a [routerLink]="['/qr-generator']">
             <button class="qr-button">
                 <span>Generar codigo QR</span>
                 <img class="qr-icon" src="assets/QR_icon.png" alt="qr-icon">
             </button>
+            </a>
         </div>
     </div>
     <div class="right">
+        <a [routerLink]="['/user/profile']">
         <img class="profile-icon" src="assets/user-profile.svg" alt="profile-icon">
+        </a>
         <button class="bottom-button">Back</button>
     </div>
 </div>

@@ -83,6 +83,7 @@ body, html {
     width: 50%;
     margin-bottom: 90%;
     padding-bottom: 175px;
+    margin-left: 30%;
 }
 
 span {
@@ -96,6 +97,7 @@ span {
     justify-content: center;
     gap: 50px;
     padding-left: 100px;
+    margin-bottom: 31%;
 }
 
 .qr-button {
@@ -163,6 +165,7 @@ span {
 
     .bottom-button {
         font-size: 16px;
+        margin-right: 50px;
     }
 
     .profile-icon {
@@ -171,6 +174,7 @@ span {
         padding: 0px;
         margin-right: 50px;
         padding-right: 300px;
+        margin-left: 50px;
     }
 
     .qr-icon {
@@ -189,7 +193,8 @@ span {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding: 0px
+        padding: 0px;
+        margin-bottom: 0px;
     }
     
     span {

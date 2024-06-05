@@ -12,7 +12,7 @@
 }
 
 .content-box {
-    width: 80%;
+    width: 60%;
     height: auto;
     padding: 20px;
     border: 1px solid #000;
@@ -54,7 +54,7 @@
 
 .right-side {
     background-color: #61f7b3;
-    width: 30%;
+    width: 20%;
     display: flex;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -74,6 +74,7 @@
     font-size: 16px;
     cursor: pointer;
     transition: opacity 0.3s;
+    margin-left: 40%;
 }
 
 .background-button:hover{

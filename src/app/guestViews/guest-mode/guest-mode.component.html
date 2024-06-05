@@ -1,14 +1,18 @@
 <div class="container">
     <div class="left">
         <div class="button-container">
+            <a [routerLink]="['/qr-generator']">
             <button class="button">
                 <span>Generar codigo QR</span>
                 <img class="qr-icon" src="assets/QR_icon.png" alt="qr-icon">
             </button>
+           </a>
         </div>
     </div>
     <div class="right">
+        <a [routerLink]="['/guest/profile']">
         <img class="profile-icon" src="assets/user-profile.svg" alt="profile-icon">
+        </a>
         <button class="bottom-button">Back</button>
     </div>
 </div>

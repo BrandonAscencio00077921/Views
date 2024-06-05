@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-manual-mode',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './manual-mode.component.html',
   styleUrl: './manual-mode.component.css'
 })

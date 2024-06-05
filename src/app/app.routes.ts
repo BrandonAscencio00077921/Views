@@ -16,6 +16,7 @@ import { InChargeUsersComponent } from './userViews/inChargeUser/in-charge-users
 import { InChargeInviteComponent } from './userViews/inChargeUser/in-charge-invite/in-charge-invite.component';
 import { InChargeAssignComponent } from './userViews/inChargeUser/in-charge-assign/in-charge-assign.component';
 import { InChargeRequestComponent } from './userViews/inChargeUser/in-charge-request/in-charge-request.component';
+import { QrGeneratorComponent } from './qr-generator/qr-generator.component';
 
 export const routes: Routes = [
     {
@@ -34,7 +35,7 @@ export const routes: Routes = [
         title: 'Admin History'
     },
     {
-        path: 'admin/design-ruser',
+        path: 'admin/designate-ruser',
         component: DesignateRUserComponent,
         title: 'Designate Resident'
     },
@@ -102,6 +103,11 @@ export const routes: Routes = [
         path: 'incharge/request',
         component: InChargeRequestComponent,
         title: 'Requests'
+    },
+    {
+        path: 'qr-generator',
+        component: QrGeneratorComponent,
+        title: 'QR Code'
     }
     
 ];

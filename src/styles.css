@@ -14,3 +14,9 @@ p {
     font-size: large;
     margin: 10px;
 }
+
+a {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+}
