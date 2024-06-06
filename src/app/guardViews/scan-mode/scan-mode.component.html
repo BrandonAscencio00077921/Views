@@ -1,7 +1,10 @@
     <div class="container">
         <div class="left-side">
             <div class="camera-container">
-                <video id="video" autoplay></video>
+                <zxing-scanner 
+                [formats]="formats"
+                (scanSuccess)="handleQrCodeResult($event)">
+              </zxing-scanner>
             </div>
         </div>
         <div class="right-side">
@@ -12,34 +15,3 @@
         </div>
     </div>
 
-    <script>
-        async function startCamera() {
-            console.log('startCamera function called.');
-            try {
-                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-                document.getElementById('video').srcObject = stream;
-                console.log('Camera access granted.');
-            } catch (error) {
-                console.error('Error accessing the camera:', error);
-                alert('Error accessing the camera: ' + error.message);
-            }
-        }
-
-        document.addEventListener('DOMContentLoaded', (event) => {
-            console.log('DOM fully loaded and parsed.');
-            startCamera();
-        });
-
-        function setStatus(correct) {
-            const indicator = document.querySelector('.status-indicator');
-            if (correct) {
-                indicator.classList.add('correct');
-                indicator.classList.remove('incorrect');
-            } else {
-                indicator.classList.add('incorrect');
-                indicator.classList.remove('correct');
-            }
-        }
-
-        setTimeout(() => setStatus(true), 3000);
-    </script>

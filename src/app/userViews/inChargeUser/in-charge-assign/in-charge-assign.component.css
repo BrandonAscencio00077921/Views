@@ -4,7 +4,6 @@
     height: 100vh;
 }
 
-
 .left {
     font-size: larger;
     width: 85%;
@@ -71,6 +70,7 @@ input[type="text"] {
     cursor: pointer;
     font-size: large;
 }
+
 .right-btn {
     background-color: white;
     color: black;
@@ -84,6 +84,7 @@ input[type="text"] {
     transition: opacity 0.3s;
     margin-left: 30%;
 }
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
